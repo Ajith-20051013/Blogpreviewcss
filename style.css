@@ -1,0 +1,105 @@
+
+/* Background styling and margin of the body content */
+body{
+    background-color:  hsl(47, 88%, 63%);
+    margin: 0;
+}
+
+
+/* Font styling of the body content */
+*{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+/* CSS for whole container of the box */
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    height: 510px;
+    border-radius: 10px;
+    box-shadow: 7px 7px;
+    margin:70px auto;
+    border: 1px black solid;
+}
+
+
+/* input of the CSS to image */
+img{
+    width: 300px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+
+/* input of the CSS to Button */
+button{
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    color: black;
+    padding: 10px 22px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left:30px;
+}
+
+
+/* input of the CSS to image */
+.icon>img{
+    width: 30px;
+    margin: 10px;
+    position: relative;
+    bottom: 20px;
+
+}
+
+
+/* input of the CSS to icon and name */
+.icon h5{
+    display: inline-block;
+    position: relative;
+    bottom:40px;
+
+}
+
+
+/* input of the CSS to the bottom text */
+.text{
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 16px;
+  margin: 30px;
+
+}
+
+
+/* input of the CSS to the specfic bottom text */
+.text h5{
+    color: hsl(0, 0%, 7%)
+}
+
+
+/* input of the CSS to the specfic pargraph text */
+p{
+    color:hsl(0, 0%, 42%);
+}
+
+
+/* input of the CSS to the image */
+.icon img{
+   margin-bottom: 10px;
+   margin-left: 20px;
+}
+
+
+/* input of the CSS to the H3 text hovering */
+h3:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
